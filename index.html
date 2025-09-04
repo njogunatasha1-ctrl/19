@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: "Dancing Script", cursive;
+    }
+
+    /* background with blur */
+    .bg {
+      background: url("pic1.jpg") no-repeat center center fixed;
+      background-size: cover;
+      filter: blur(8px);
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .overlay {
+      background: rgba(0,0,0,0.4); 
+      padding: 50px;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 15px auto;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1.2em;
+      color: #fff;
+      background: #9b59b6;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #8e44ad;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- blurred background -->
+  <div class="bg"></div>
+
+  <!-- content -->
+  <div class="overlay">
+    <h1>Happy 19th Boo 💜</h1>
+    <p>I know I was supposed to get you a gift but what's the point if you're not gonna get it when you're 19?</p>
+   
+    <p>If you were to ask me about my hb, I'd say he is cool and calm, but if you asked me on a deeper level... I'd say, people like him are one in a million and I definitely hit the jackpot cause I get to have him as my best friend. Kelvin is a rare one, he loves too deeply and isn't afraid to express it and I admire that about him. He is so supportive and protective. Everyone deserves someone like him cause he definitely makes my world so much better. ∞</p>
+     <p>Update...I wrote this before we decided to cross the border... but it still holds truth. This is how I felt then, and it's how I feel now, only deeper.....</p>
+    <a href="letter.html" class="button">Click for more 💌💜</a>
+  </div>
+</body>
+</html>
